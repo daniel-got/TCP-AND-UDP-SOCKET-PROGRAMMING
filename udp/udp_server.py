@@ -38,7 +38,6 @@ def start_udp_server():
         print("\n[UDP SERVER] Matikan manual.")
     except Exception as e:
         print(f"[UDP SERVER] CRITICAL ERROR: {e}")
-        # Tampilkan baris error biar jelas
         import traceback
         traceback.print_exc()
     finally:
